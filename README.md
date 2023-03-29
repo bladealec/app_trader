@@ -9,7 +9,6 @@ Unfortunately, the data for Apple App Store apps and the data for Android Play S
 
 
  Assumptions:
-Based on research completed prior to launching App Trader as a company, you can assume the following:
 
 	1. App Trader will purchase the rights to apps for 10,000 times the list price of the app on the Apple App Store/Google Play Store, however the minimum price to purchase the rights to an app is $25,000. For example, a $3 app would cost $30,000 (10,000 x the price) and a free app would cost $25,000 (The minimum price). NO APP WILL EVER COST LESS THEN $25,000 TO PURCHASE.
 
@@ -22,6 +21,7 @@ Based on research completed prior to launching App Trader as a company, you can 
 	5. App Trader would prefer to work with apps that are available in both the App Store and the Play Store since they can market both for the same $1000 per month.
 
  Deliverables:
+	
 	a. Develop some general recommendations about the price range, genre, content rating, or any other app characteristics that the company should target.
 
 	b. Develop a Top 10 List of the apps that App Trader should buy based on profitability/return on investment as the sole priority.
@@ -31,6 +31,7 @@ Based on research completed prior to launching App Trader as a company, you can 
 	d. Submit a report based on your findings. The report should include both of your lists of apps along with your analysis of their cost and potential profits. All analysis work must be done using PostgreSQL, however you may export query results to create charts in Excel for your report.
 
 Future Recomendations:
+	
 	a. (open to suggestions)
 
 	b. Look into the total average net profit from a combination of the best prices ranges, genre, and content ratings.
