@@ -1,7 +1,7 @@
 --NOTES:
 --Code to answer delivarables is based on joining the given dataset into the 'store_join' table. The new table is created in the third querry.
 
---Could look into install counts (review counts where considered) 
+--Could look into install counts (review counts where considered in visualizations) 
 
 
 --Looking at given dataset
@@ -13,7 +13,7 @@ FROM play_store_apps;
 
 DROP TABLE store_join;
 -- Joining both tables while keeping their data seperate.
---This is used to analyse both tables at once for following deliverables a, b, and c (order: b, a, then c).
+--This is used to analyse both tables at once for following deliverables a, b, and c.
 CREATE TABLE store_join AS (SELECT 
 							
 						  CASE WHEN app_store.name = play_store.name THEN 'both'
