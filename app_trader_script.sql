@@ -24,7 +24,7 @@ CREATE TABLE store_join AS (SELECT
 						  ,app_store.name AS app_store_name
 						  ,play_store.name AS play_store_name
 						  ,app_store.size_bytes AS app_store_size_bytes
-						  ,play_store.size AS play_store_size 				--might want to change units
+						  ,play_store.size AS play_store_size 				
 						  ,app_store.price::money AS app_store_price
 						  ,play_store.price::money AS play_store_price
 							
