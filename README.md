@@ -1,14 +1,14 @@
-
- Objective:
+# App Trader | BI Project
+### Objective:
 Your team has been hired by a new company called App Trader to help them explore and gain insights from apps that are made available through the Apple App Store and Android Play Store.   
 
- App Trader Overview:
+### App Trader Overview:
 App Trader is a broker that purchases the rights to apps from developers in order to market the apps and offer in-app purchases. The apps' developers retain all money from users purchasing the app from the relevant app store, and they retain half of the money made from in-app purchases. App Trader will be solely responsible for marketing any apps they purchase the rights to.
 
 Unfortunately, the data for Apple App Store apps and the data for Android Play Store apps are located in separate tables with no referential integrity.
 
 
- Assumptions:
+### Assumptions:
 
 	1. App Trader will purchase the rights to apps for 10,000 times the list price of the app on the Apple App Store/Google Play Store, however the minimum price to purchase the rights to an app is $25,000. For example, a $3 app would cost $30,000 (10,000 x the price) and a free app would cost $25,000 (The minimum price). NO APP WILL EVER COST LESS THEN $25,000 TO PURCHASE.
 
@@ -20,7 +20,7 @@ Unfortunately, the data for Apple App Store apps and the data for Android Play S
 
 	5. App Trader would prefer to work with apps that are available in both the App Store and the Play Store since they can market both for the same $1000 per month.
 
- Deliverables:
+ ### Deliverables:
 	
 	a. Develop some general recommendations about the price range, genre, content rating, or any other app characteristics that the company should target.
 
@@ -30,7 +30,7 @@ Unfortunately, the data for Apple App Store apps and the data for Android Play S
 
 	d. Submit a report based on your findings. The report should include both of your lists of apps along with your analysis of their cost and potential profits. All analysis work must be done using PostgreSQL, however you may export query results to create charts in Excel for your report.
 
-Future Recomendations:
+### Future Recomendations:
 	
 	a. (open to suggestions)
 
