@@ -1,4 +1,5 @@
 # App Trader | BI Project
+**NOTE: The main branch consist only of my personal work**
 ### Objective:
 Your team has been hired by a new company called App Trader to help them explore and gain insights from apps that are made available through the Apple App Store and Android Play Store.   
 
